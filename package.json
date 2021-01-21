@@ -1,0 +1,25 @@
+{
+  "name": "rxjs-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint-webpack-plugin": "^2.4.3",
+    "html-webpack-plugin": "^4.5.1",
+    "source-map-loader": "^2.0.0",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --config webpack.config.js",
+    "build": "webpack"
+  },
+  "author": "alzh0817",
+  "license": "ISC"
+}
